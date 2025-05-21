@@ -31,7 +31,7 @@ To develop a machine learning model that can accurately predict the level of pro
 
 - **Time-Series Feature Engineering**: Statistical and rolling-window features from wearable data
 - **Data Balancing**: SMOTE for handling target imbalance
-- **Modeling**: XGBoost, Random Forest
+- **Modeling**: Feed-Forward Neural Network, Recurrent Neural Network, XGBoost, Random Forest
 - **Evaluation**: R² Score, Cross-Validation
 - **Explainability**: SHAP for feature importance
 - **Visualization**: Multivariate plots, heatmaps, and distributions
