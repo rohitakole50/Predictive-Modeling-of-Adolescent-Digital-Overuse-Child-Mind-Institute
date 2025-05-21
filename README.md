@@ -31,7 +31,7 @@ To develop a machine learning model that can accurately predict the level of pro
 
 - **Time-Series Feature Engineering**: Statistical and rolling-window features from wearable data
 - **Data Balancing**: SMOTE for handling target imbalance
-- **Modeling**: Feed-Forward Neural Network, Recurrent Neural Network, XGBoost, Random Forest
+- **Modeling**: Dense Neural Network, Early Stopping, Callback
 - **Evaluation**: R² Score, Cross-Validation
 - **Explainability**: SHAP for feature importance
 - **Visualization**: Multivariate plots, heatmaps, and distributions
@@ -54,7 +54,7 @@ To develop a machine learning model that can accurately predict the level of pro
 ---
 
 ## 📈 Results
-- Best model: XGBoost Regressor
+- Best model: Dense Neural Network
 - Test R²: 0.72
 - Key predictors: Sedentary time, irregular sleep patterns, heart rate variability
 - SMOTE application reduced overfitting and improved fairness
